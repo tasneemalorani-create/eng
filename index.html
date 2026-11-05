@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Welcome · Tasneem</title>
+  <meta name="description" content="Welcome to Tasneem's new website.">
+  <meta name="theme-color" content="#0f3d3e">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,600&family=Inter:wght@400;500&family=Amiri:wght@400;700&family=IBM+Plex+Sans+Arabic:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="water" aria-hidden="true">
+    <span class="ripple r1"></span>
+    <span class="ripple r2"></span>
+    <span class="ripple r3"></span>
+  </div>
+
+  <header class="top">
+    <a class="mark" href="/" aria-label="Tasneem home">
+      <img src="favicon.svg" alt="" width="28" height="28">
+      <span data-i18n="brand">Tasneem</span>
+    </a>
+    <button class="lang" id="lang" type="button" aria-label="Switch language">العربية</button>
+  </header>
+
+  <main class="hero">
+    <p class="eyebrow" data-i18n="eyebrow">A new website</p>
+    <h1>
+      <span data-i18n="hello">Welcome to</span>
+      <em data-i18n="name">Tasneem</em>
+    </h1>
+    <p class="lede" data-i18n="lede">
+      Named for a spring that never runs dry — this is a quiet place for ideas,
+      work, and things worth sharing. It's just getting started.
+    </p>
+
+    <div class="actions">
+      <a class="btn primary" href="#about" data-i18n="cta1">Say hello</a>
+      <a class="btn ghost" href="https://github.com/tasneemalorani-create" target="_blank" rel="noopener" data-i18n="cta2">GitHub</a>
+    </div>
+  </main>
+
+  <section class="cards" id="about">
+    <article class="card">
+      <span class="num">01</span>
+      <h2 data-i18n="c1t">About</h2>
+      <p data-i18n="c1p">Who Tasneem is, what matters most, and the story behind the site.</p>
+    </article>
+    <article class="card">
+      <span class="num">02</span>
+      <h2 data-i18n="c2t">Work</h2>
+      <p data-i18n="c2p">Projects, experiments, and notes — added here as they take shape.</p>
+    </article>
+    <article class="card">
+      <span class="num">03</span>
+      <h2 data-i18n="c3t">Contact</h2>
+      <p data-i18n="c3p">Want to collaborate or just say hi? A contact page is on the way.</p>
+    </article>
+  </section>
+
+  <footer class="foot">
+    <span data-i18n="foot">© <span id="year"></span> Tasneem · Made with care</span>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
