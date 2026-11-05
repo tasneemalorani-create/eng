@@ -148,6 +148,13 @@ html[dir="rtl"] h1 em { font-style: normal; font-weight: 700; }
 .num { font: 600 0.85rem var(--serif); color: var(--accent); }
 .card h2 { font: 600 1.5rem var(--serif); margin: 10px 0 8px; }
 .card p { color: var(--muted); }
+.wa {
+  display: inline-block; margin-top: 14px;
+  color: var(--accent); font-weight: 500; text-decoration: none;
+  font-family: "Inter", system-ui, sans-serif;
+  unicode-bidi: isolate;
+}
+.wa:hover { text-decoration: underline; }
 
 .foot {
   padding: 24px clamp(16px, 5vw, 64px);
